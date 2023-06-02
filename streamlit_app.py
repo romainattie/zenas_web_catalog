@@ -15,6 +15,6 @@ df = pd.DataFrame(my_catalog)
 streamlit.write(df)
 
 color_list = df[0].values.tolist()
-print(color_list)
+streamlit.write(color_list)
 
 
